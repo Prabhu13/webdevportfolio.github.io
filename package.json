@@ -11,9 +11,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint && prettier --check .",
-    "format": "prettier --write .",
-    "predeploy" : "yarn dev",
-    "deploy" : "gh-pages -d build"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@apollo/client": "^3.3.21",
