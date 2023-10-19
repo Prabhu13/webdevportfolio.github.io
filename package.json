@@ -12,7 +12,7 @@
     "start": "next start",
     "lint": "next lint && prettier --check .",
     "format": "prettier --write .",
-    "predeploy" : "npm run build",
+    "predeploy" : "yarn dev",
     "deploy" : "gh-pages -d build"
   },
   "dependencies": {
