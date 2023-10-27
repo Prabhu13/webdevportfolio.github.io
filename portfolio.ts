@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "Highly skilled and versatile computer science masters student with a strong background in version control, programming, database management, DevOps, web technologies and a range of tools. Adept at collaborating with cross-functional teams and delivering results in fast-paced environments.",
   resumeLink:
-    'https://drive.google.com/file/d/1FVabtV2jk5p3eSxLoa4_3fo7QTEXKRxm/view?usp=share_link',
+    'https://drive.google.com/file/d/1wBzGfVUr4fryZn_EfUd01OQZF2wFkF3V/view?usp=drive_link',
 };
 
 export const openSource = {
@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://webdevportfolip.github.io/',
+  url: 'https://whimsical-cajeta-19d63d.netlify.app/',
   linkedin: 'https://www.linkedin.com/in/prabhakar13/',
   github: 'https://github.com/Prabhu13',
   facebook: 'https://www.facebook.com/prabhakar.yadav.161009/',
@@ -45,7 +45,7 @@ export const skillsSection: SkillsSectionType = {
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Building RESTful APIs in Nodejs, Django & Django REST Framework'),
       ],
       softwareSkills: [
         {
@@ -67,6 +67,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Nextjs',
           iconifyTag: 'vscode-icons:file-type-light-next',
+        },
+        {
+          skillName: 'Nodejs',
+          iconifyTag: 'skill-icons:nodejs-dark',
         },
         {
           skillName: 'Python',
@@ -100,7 +104,7 @@ export const skillsSection: SkillsSectionType = {
           '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions and Bitbucket'
         ),
       ],
       softwareSkills: [
@@ -134,57 +138,69 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:github-actions',
         },
         {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
+          skillName: 'Google Cloud Platform',
+          iconifyTag: 'skill-icons:gcp-light',
         },
         {
           skillName: 'Nginx',
           iconifyTag: 'logos:nginx',
         },
         {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
+          skillName: 'Kubernetes',
+          iconifyTag: 'skill-icons:kubernetes',
         },
       ],
     },
     {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+      title: 'Data Science',
+      lottieAnimationFile: '/lottie/skills/data_analytics.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+          '⚡ Experience in creating data pipeline and ETL process'
         ),
         emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+          '⚡ Scripting different tools to support the ETL process'
         ),
         emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+          '⚡ Highly qualified in Statistics and figuring decision making dashboard'
         ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+        emoji('⚡ Creating visualization tool using free Libraries or Licensed tools like PowerBI and Tableau'),
         emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+          '⚡ Experience in developing efficient Machine Learning model that can be applied in actual practice'
         ),
       ],
       softwareSkills: [
         {
-          skillName: 'Ethereum',
-          iconifyTag: 'logos:ethereum',
+          skillName: 'Tableau',
+          iconifyTag: 'logos:tableau-icon',
         },
         {
-          skillName: 'Solidity',
-          iconifyTag: 'logos:solidity',
+          skillName: 'PowerBI',
+          iconifyTag: 'simple-icons:powerbi',
         },
         {
-          skillName: 'Web3js',
-          iconifyTag: 'logos:web3js',
+          skillName: 'Matplotlib',
+          iconifyTag: 'devicon:matplotlib',
         },
         {
-          skillName: 'Metamask',
-          iconifyTag: 'logos:metamask-icon',
+          skillName: 'ScikitLearn',
+          iconifyTag: 'devicon:scikitlearn',
         },
         {
-          skillName: 'Ganache',
-          iconifyTag: 'logos:ganache-icon',
+          skillName: 'Statistics',
+          iconifyTag: 'flat-color-icons:statistics',
+        },
+        {
+          skillName: 'Numpy',
+          iconifyTag: 'logos:numpy',
+        },
+        {
+          skillName: 'Pandas',
+          iconifyTag: 'devicon:pandas-wordmark',
+        },
+        {
+          skillName: 'MySQL',
+          iconifyTag: 'logos:mysql',
         },
       ],
     },
@@ -212,10 +228,27 @@ export const educationInfo: EducationType[] = [
     subHeader: 'Master of Science in Computer Science',
     duration: 'September 2023 - December 2024',
     desc: 'Learned different subjects which gave deep practical knowledge on it',
-    grade: 'Grade A',
+    grade: 'Grade N/A',
     descBullets: [
       'Web Technologies',
       'Data Structures',
+      'Data Mining',
+      'Data Base Management Systems'
+    ],
+  },
+  {
+    schoolName: 'Ram',
+    subHeader: 'Master of Science in Computer Science',
+    duration: 'August 2014 - June 2018',
+    desc: 'Learned different subjects which gave deep practical knowledge on it',
+    grade: 'Grade A',
+    descBullets: [
+      'Computer Networks',
+      'Object Oriented Programming in Java',
+      'Operating Systems',
+      'Computer Architecture',
+      'Artificial Intillegence',
+      'Machine Learning'
     ],
   },
 ];
@@ -224,16 +257,16 @@ export const experience: ExperienceType[] = [
   {
     role: 'Software Developer',
     company: 'Ingram Micro',
-    companyLogo: '/img/icons/common/ingram.jpg',
-    date: 'July 22018 – March 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    companyLogo: '/img/icons/common/ingram.png',
+    date: 'July 2018 – March 2022',
+    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Vue.js, PHP, Bootstrap, jQuery, Chart.js and some other libraries.',
   },
   {
     role: 'API Engineer',
     company: 'CMA CGM Logistics',
-    companyLogo: '/img/icons/common/cmacgm.jpg',
-    date: 'Apr 2023 – Aug 2023',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    companyLogo: '/img/icons/common/cma1.png',
+    date: 'Apr 2022 – Aug 2023',
+    desc: 'I worked as Full Stack Engineer and instituted RESTful APIs with proper error handling and logging. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs and created changes in Shipwire.com product for and helped in backend enhancements',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -285,7 +318,7 @@ export const showContactUs: boolean = true;
 export const seoData: SEODataType = {
   title: 'Hanzla Tauqeer',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+    'A passionate Full Stack Web Developer and Data Scientist.',
   author: 'Hanzla Tauqeer',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
