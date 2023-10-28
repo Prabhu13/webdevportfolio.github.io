@@ -320,7 +320,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate Full Stack Web Developer and Data Scientist.',
   author: 'Prabhakar Yadav',
-  image: 'https://github.com/Prabhu13/webdevportfolio.github.io/blob/main/IMG_5008.jpeg',
+  image: 'https://avatars3.githubusercontent.com/Prabhu13',
   url: 'https://whimsical-cajeta-19d63d.netlify.app/',
   keywords: [
     'Prabhakar',
