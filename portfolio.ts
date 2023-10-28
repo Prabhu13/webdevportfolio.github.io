@@ -13,9 +13,9 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Prabhakar Yadav',
-  title: "Software Engineer",
+  title: "Computer Science Graduate Student",
   description:
-    "Highly skilled and versatile computer science masters student with a strong background in version control, programming, database management, DevOps, web technologies and a range of tools. Adept at collaborating with cross-functional teams and delivering results in fast-paced environments.",
+    "Highly skilled and versatile computer science master's student with a strong background in version control, programming, database management, DevOps, web technologies, data analysis, machine learning, and a range of tools related to data science. Adept at collaborating with cross-functional teams and delivering results in fast-paced environments.",
   resumeLink:
     'https://drive.google.com/file/d/1wBzGfVUr4fryZn_EfUd01OQZF2wFkF3V/view?usp=drive_link',
 };
@@ -220,6 +220,18 @@ export const SkillBars: SkillBarsType[] = [
     Stack: 'Programming',
     progressPercentage: '70',
   },
+  {
+    Stack: 'Statistics',
+    progressPercentage: '80',
+  },
+  {
+    Stack: 'Data Mining',
+    progressPercentage: '75',
+  },
+  {
+    Stack: 'Data Analysis',
+    progressPercentage: '80',
+  },
 ];
 
 export const educationInfo: EducationType[] = [
@@ -259,14 +271,14 @@ export const experience: ExperienceType[] = [
     company: 'Ingram Micro',
     companyLogo: '/img/icons/common/ingram.png',
     date: 'July 2018 – March 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Vue.js, PHP, Bootstrap, jQuery, Chart.js and some other libraries. ',
+    desc: 'I worked as a frontend web developer, creating web-based admin dashboards with Vue.js, PHP, Bootstrap, jQuery, and Chart.js for multiple applications. Additionally, I developed a Python utility for overseeing ETL processes, facilitating data transfers from Google Cloud Storage to Redshift tables and converting API structures from YAML to Excel. I designed interactive logistics dashboards using Domo cards and reports, leveraging advanced data visualization to monitor inventory and shipments in real-time. I also established data pipelines from MySQL to BigQuery in GCP and integrated them with PowerBI for dynamic insights. These efforts optimized logistics, reduced costs, and improved delivery times while continuously refining data management processes for data-driven logistics improvements. ',
   },
   {
     role: 'API Engineer',
     company: 'CMA CGM Logistics',
     companyLogo: '/img/icons/common/cma1.png',
     date: 'Apr 2022 – Aug 2023',
-    desc: 'I worked as Full Stack Engineer and instituted RESTful APIs with proper error handling and logging. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs and created changes in Shipwire.com product for and helped in backend enhancements',
+    desc: 'As a Full Stack Engineer, I not only developed robust RESTful APIs with comprehensive error handling but also ventured into data science tasks. This included creating a Python utility for ETL processes, enabling the transfer of data from Google Cloud Storage to Redshift tables, and converting API structures from YAML to Excel for enhanced Business Analyst comprehension. Additionally, I designed interactive dashboards using tools like Domo to visualize key performance indicators and harnessed advanced data visualization techniques to provide real-time insights into inventory and shipment tracking. I integrated data pipelines from MySQL to BigQuery within Google Cloud Platform (GCP), coupled with PowerBI dashboards and monitoring features. This enabled data-driven decision-making and optimized logistics operations, reducing costs and improving delivery times. Throughout, I maintained a commitment to continuous data management process refinement through tools like Domo cards and reports, ensuring an efficient and streamlined data infrastructure.',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -295,6 +307,18 @@ export const projects: ProjectType[] = [
     name: 'Real Estate Property Listing and Selling',
     desc: 'Real Estate is a website for listing properties for sale, rent. Admin can list, edit, delete and update listings.',
     github: 'https://github.com/Prabhu13/Real-Estate',
+  },
+  {
+    name: 'Credit Consumption Prediction Challenge',
+    desc: 'Prepared and cleaned the acquired training and test data obtained from GreyAtom. Using different libraries of Python such as Numpy, Sklearn, pandas, matplotlib found insights and applied machine learning algorithms for the prediction.',
+  },
+  {
+    name: 'Mahindra First Choice Predicting New Location',
+    desc: 'Identifying the ownership pattern of cars throughout the country. Captures the problem wherein information regarding spending patterns identified. Applied different python libraries on data to select next best location for new Center. Sklearn, Seaborn, Numpy, pandas, ensembling',
+  },
+  {
+    name: 'Sentiment Analysis Hackathon',
+    desc: 'Used regex and NLTK library to find the sentiments from the given twitter data by GreyAtom. Preprocessed text, and applied NLP techniques to find whether twitterati have Positive, Negative or Neutral feedback towards given brand.',
   },
 ];
 
