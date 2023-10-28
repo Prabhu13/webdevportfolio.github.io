@@ -278,23 +278,23 @@ export const projects: ProjectType[] = [
   {
     name: 'developer-portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    github: 'https://github.com/Prabhu13/webdevportfolio.github.io',
+    link: 'https://whimsical-cajeta-19d63d.netlify.app/',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'Blood Bank Campaign Management System',
+    desc: 'To create a CRUD based website in php for blood bank campaign in different locations',
+    github: '',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Party Tracker',
+    desc: 'Party as a punishment tracker is a website to track lists of defaulters. created using PHP, jQuery, AJAX, Bootstrap',
+    github: 'https://github.com/Prabhu13/Party',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Real Estate Property Listing and Selling',
+    desc: 'Real Estate is a website for listing properties for sale, rent. Admin can list, edit, delete and update listings.',
+    github: 'https://github.com/Prabhu13/Real-Estate',
   },
 ];
 
@@ -316,19 +316,19 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Prabhakar',
   description:
     'A passionate Full Stack Web Developer and Data Scientist.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  author: 'Prabhakar Yadav',
+  image: 'https://github.com/Prabhu13/webdevportfolio.github.io/blob/main/IMG_5008.jpeg',
+  url: 'https://whimsical-cajeta-19d63d.netlify.app/',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Prabhakar',
+    'Prabhakar Yadav',
+    '@Prabhu13',
+    'Prabhu13',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Prabhakar Portfolio ',
+    'Prabhakar Yadav Portfolio',
   ],
 };
