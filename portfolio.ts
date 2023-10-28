@@ -237,7 +237,7 @@ export const educationInfo: EducationType[] = [
     ],
   },
   {
-    schoolName: 'Ram',
+    schoolName: 'Ramrao Adik Institute of Technology, Mumbai University',
     subHeader: 'Master of Science in Computer Science',
     duration: 'August 2014 - June 2018',
     desc: 'Learned different subjects which gave deep practical knowledge on it',
@@ -259,7 +259,7 @@ export const experience: ExperienceType[] = [
     company: 'Ingram Micro',
     companyLogo: '/img/icons/common/ingram.png',
     date: 'July 2018 – March 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Vue.js, PHP, Bootstrap, jQuery, Chart.js and some other libraries.',
+    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Vue.js, PHP, Bootstrap, jQuery, Chart.js and some other libraries. ',
   },
   {
     role: 'API Engineer',
@@ -284,7 +284,7 @@ export const projects: ProjectType[] = [
   {
     name: 'Blood Bank Campaign Management System',
     desc: 'To create a CRUD based website in php for blood bank campaign in different locations',
-    github: '',
+    github: 'https://github.com/Prabhu13/BloodBank',
   },
   {
     name: 'Party Tracker',
