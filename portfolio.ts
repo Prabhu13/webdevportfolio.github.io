@@ -118,10 +118,6 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:microsoft-azure',
         },
         {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
-        },
-        {
           skillName: 'PostgreSQL',
           iconifyTag: 'logos:postgresql',
         },
