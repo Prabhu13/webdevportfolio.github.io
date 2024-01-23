@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "Highly skilled and versatile computer science master's student with a strong background in version control, programming, database management, DevOps, web technologies, data analysis, machine learning, and a range of tools related to data science. Adept at collaborating with cross-functional teams and delivering results in fast-paced environments.",
   resumeLink:
-    'https://drive.google.com/file/d/1RJ4TO1n72Cnq3wNGUwYMHI1-9vPe4lR6/view?usp=drive_link',
+    'https://drive.google.com/file/d/1FW1xhv42S3YzyqVJn5f9jT56kD6sKPcJ/view?usp=sharing',
 };
 
 export const openSource = {
