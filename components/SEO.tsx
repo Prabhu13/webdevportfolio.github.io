@@ -31,7 +31,7 @@ function SEO() {
       <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png" />
       {/* Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2K96YKSCVJ"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLRDM380QR"></script>
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -39,7 +39,7 @@ function SEO() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-2K96YKSCVJ');
+            gtag('config', 'G-YLRDM380QR');
           `,
         }}
       />
